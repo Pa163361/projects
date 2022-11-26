@@ -1,0 +1,25 @@
+Case-1: When the grand-child process terminates before the child
+
+    Let's say the parent process be x. Now, the parent(x) process calls the create_child
+    function and in that function child process will be created and the parent process
+    came back to the main function and will be continuously running in the while(1) loop.
+    Meanwhile the child process calls create_child function and creates grand-child process.
+    This grand-child process also calls create_child function but as the iter equals n=2,
+    it returns right at the start of the function. So, now child and grand-child are running.
+    If the grand-child terminates before the child does then, exit(0) - called after termination
+    of grand-child will calls signal_handler and in that function as child is not yet terminated,
+    the print statement there will be executed. Similarly as the parent process is not yet terminated
+    the child process calls exit(0) at the time of its termination then again print statement in the 
+    signal_handler funtion will be printed.
+        In the output_a.txt file, we can observe that the sleep time of child is greater than 
+        grand-child that means grand-child is terminating first. And the print statement in the signal_handler
+        function printed two times(one for grand-child,one for child).
+
+Case-2: when the child terminates before the grandchild
+
+    If the child terminates before the grandchild does then at the time of termination of 
+    grand-child, in the signal_handler function, wpid will be 0 as the child process is already terminated.
+    So, the print statement over there won't be executed. 
+        In the output_b.txt file, we can observe that the sleep time of child is lesser than 
+        grand-child that means child is terminating first. And the print statement in signal_handler function
+        is executed only once(for child process only).

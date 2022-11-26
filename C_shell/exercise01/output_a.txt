@@ -1,0 +1,4 @@
+Child 88608 is created by parent 88607 (sleeps for 9 seconds)
+Child 88609 is created by parent 88608 (sleeps for 1 seconds)
+Parent 88608: Child 88609 is exited
+Parent 88607: Child 88608 is exited

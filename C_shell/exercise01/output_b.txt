@@ -1,0 +1,3 @@
+Child 90379 is created by parent 90378 (sleeps for 8 seconds)
+Child 90380 is created by parent 90379 (sleeps for 10 seconds)
+Parent 90378: Child 90379 is exited

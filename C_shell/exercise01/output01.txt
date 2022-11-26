@@ -1,0 +1,29 @@
+Child 97814 is created by parent 97813 (sleeps for 1 seconds)
+Child 98080 is created (sleeps for 1 seconds)
+Child 98079 is created (sleeps for 8 seconds)
+Child 98080 exited
+Child 98079 exited
+Child 98139 is created (sleeps for 2 seconds)
+Child 98140 is created (sleeps for 4 seconds)
+Child 98138 is created (sleeps for 9 seconds)
+Child 98139 exited
+Child 98140 exited
+Child 98138 exited
+Child 98162 is created (sleeps for 3 seconds)
+Child 98159 is created (sleeps for 6 seconds)
+Child 98160 is created (sleeps for 8 seconds)
+Child 98161 is created (sleeps for 10 seconds)
+Child 98162 exited
+Child 98159 exited
+Child 98160 exited
+Child 98161 exited
+Child 98193 is created (sleeps for 1 seconds)
+Child 98194 is created (sleeps for 4 seconds)
+Child 98190 is created (sleeps for 5 seconds)
+Child 98191 is created (sleeps for 7 seconds)
+Child 98192 is created (sleeps for 9 seconds)
+Child 98193 exited
+Child 98194 exited
+Child 98190 exited
+Child 98191 exited
+Child 98192 exited
