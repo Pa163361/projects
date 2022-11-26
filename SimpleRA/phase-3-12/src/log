@@ -1,0 +1,176 @@
+BufferManager::BufferManager
+ParseQuery::clear
+
+Reading New Command: 
+LOAD input
+doCommand
+syntacticParse
+syntacticParseLOAD
+semanticParse
+semanticParseLOAD_TABLE
+TableCatalogue::isTable
+executeLOAD_TABLE
+Table::Table
+Table::load
+Table::extractColumnNames
+Table::blockify
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+TableCatalogue::~insertTable
+ParseQuery::clear
+
+Reading New Command: 
+A1 <- SORT input BY C IN ASC
+doCommand
+syntacticParse
+syntacticParseSORT
+semanticParse
+semanticParseSORT
+TableCatalogue::isTable
+TableCatalogue::isTable
+TableCatalogue::isColumnFromTable
+TableCatalogue::isTable
+TableCatalogue::getTable
+Table::isColumn
+executeSORT
+TableCatalogue::getTable
+Table::getColumnIndex
+Table::Table
+Table::printRow
+Table::printRow
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::getRow
+Page::getRow
+Table::printRow
+Table::printRow
+Table::printRow
+Table::printRow
+Page::getRow
+Page::getRow
+Table::printRow
+Table::printRow
+Table::printRow
+Table::printRow
+Page::getRow
+Page::getRow
+Table::printRow
+Table::printRow
+Table::printRow
+Table::printRow
+Page::getRow
+Page::getRow
+Table::printRow
+Table::printRow
+Table::blockify
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+TableCatalogue::~insertTable
+Table::Table
+Table::printRow
+Table::printRow
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::getRow
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::getRow
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::getRow
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::getRow
+Table::printRow
+Table::printRow
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::getRow
+Table::printRow
+Table::printRow
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::getRow
+Table::printRow
+Table::printRow
+Table::printRow
+Table::printRow
+Page::Page
+Printing table
+TableCatalogue::getTable
+Page::getRow
+Table::printRow
+Table::printRow
+Table::printRow
+Table::printRow
+Table::printRow
+Table::printRow
+Table::blockify
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+BufferManager::writePage::Table
+Page::Page
+Page::writePage::Table
+TableCatalogue::~insertTable
+TableCatalogue::deleteTable
+Table::~unload
+BufferManager::deleteFile
+BufferManager::deleteFile: Success
+BufferManager::deleteFile
+BufferManager::deleteFile: Success
+BufferManager::deleteFile
+BufferManager::deleteFile: Success
+BufferManager::deleteFile
+BufferManager::deleteFile: Success
+Table::isPermanent
+BufferManager::deleteFile: Success
+ParseQuery::clear
+
+Reading New Command: 
+QUIR
+ParseQuery::clear
+
+Reading New Command: 
